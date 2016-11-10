@@ -1,0 +1,52 @@
+body {
+  background-color: #137acb;
+  font-family: sans-serif;
+}
+.container {
+  margin: 150px auto;
+  position: relative;
+}
+#message {
+  position: absolute;
+  margin-top: -80px;
+  width: 100%;
+  text-align: center;
+}
+#message p {
+  font-size: 1.75em;
+  color: #fff;
+}
+table {
+  margin: auto;
+  text-align: center;
+}
+td {
+  height: 100px;
+  width: 100px;
+  background-color: #57c157;
+  color: #fff;
+  font-size: 4em;
+  cursor: pointer;
+}
+.reset-div {
+  text-align: center;
+  margin-top: 40px;
+}
+#reset {
+  font-size: 1.25em;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #fff;
+  color: #222;
+}
+#reset:hover {
+  background-color: #222;
+  color: #fff;
+  transition: 0.3s;
+}
+#reset:focus {
+  outline: none;
+}
